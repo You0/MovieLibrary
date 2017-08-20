@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">MovieLibrary</string>
+    <string name="app_name">电影图书馆</string>
+    <string name="Version">1.0 BETA</string>
+
 </resources>

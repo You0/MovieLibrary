@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <PreferenceCategory android:title="基本设置">
+
+        <PreferenceScreen
+            android:key="clean"
+            android:summary="当前图片缓存大小为：40mb"
+            android:title="清除缓存" >
+
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:key="update"
+            android:summary="@string/Version"
+            android:title="检查更新" >
+
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="关于作者">
+        <PreferenceScreen
+            android:key="developer"
+            android:summary="You0"
+            android:title="开发者" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="http://www.github.com/You0" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="使用到的开源代码">
+        <PreferenceScreen
+            android:summary="https://github.com/nostra13/Android-Universal-Image-Loader"
+            android:title="Android-Universal-Image-Loader" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/nostra13/Android-Universal-Image-Loader" />
+        </PreferenceScreen>
+
+
+        <PreferenceScreen
+            android:summary="https://github.com/You0/TinyHttp"
+            android:title="TinyHttp" >
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/You0/TinyHttp" />
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

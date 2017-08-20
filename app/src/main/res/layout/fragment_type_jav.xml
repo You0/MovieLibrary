@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="主題:"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="角色:"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/role"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="服裝:"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/clothing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="體型:"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/figure"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="行為:"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/behavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"></View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="玩法:"
+                android:textSize="18sp"
+                android:textColor="#000000" />
+
+            <me.com.movielibrary.ui.customview.AutoChangeLineLayout
+                android:id="@+id/example"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+
+                android:paddingRight="10dp">
+
+
+            </me.com.movielibrary.ui.customview.AutoChangeLineLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>

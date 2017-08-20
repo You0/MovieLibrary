@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_search_search"
+        android:title="请输入关键字"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item android:id="@+id/rating"
+        android:title="评分从高到低"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/time"
+        android:title="按时间倒序"
+        app:showAsAction="never">
+    </item>
+
+    <item android:id="@+id/super_searchs"
+        android:title="高级搜索"
+        app:showAsAction="never">
+    </item>
+
+</menu>
